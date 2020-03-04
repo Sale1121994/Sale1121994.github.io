@@ -1,0 +1,171 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sfondo{
+  background-image: linear-gradient(to top, #409fff, #ffffff);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+img.image{
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.2;
+  border-radius:30px;
+}
+
+.intro-foto{
+  display: flex;
+  position:relative;
+  justify-content: center;
+  border-color: white;
+  border-width:2px;
+  border-style: solid;
+  border-radius:30px;
+  width:auto;
+  height:312px;
+}
+
+.testo-foto{
+    position: absolute;
+    bottom:156px;
+  }
+
+h1,h2{
+  font: bold 40px/50px lucida, Sans-Serif;
+  color:#409fff;
+  text-align: center;
+}
+
+em{
+  font: italic 30px/35px Georgia, serif;
+}
+
+.contenuto{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 400PX;
+  height:auto;
+}
+.centro{
+  color: white;
+  width: 400px;
+  height: 250px;
+  text-align: left;
+  padding: 20px 20px 20px 20px;
+  background-color:#409fff;
+  border-color: white;
+  border-width:5px;
+  border-style: solid;
+  border-radius:30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+
+.primo{
+  padding-top:5px;
+}
+
+.contatti{
+  width:400px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+}
+
+img.social{
+  width:50px;
+  height:50px;
+  background-color: white;
+  border-radius:60%;
+}
+
+
+h3{
+    text-align:center;
+    font: bold 40px/50px lucida, Sans-Serif;
+    color:white;
+}
+
+P{
+    text-align:center;
+    font: italic bold 12px/20px Georgia, serif;
+}
+/*cambiamenti versione desktop*/
+@media only screen and (min-width: 400px){
+
+  img.image{
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.2;
+    border-radius:20px;
+  }
+
+  .intro-foto
+  {
+    display: flex;
+    position:relative;
+    justify-content: center;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius:20px;
+    width:605px;
+    height:305px;
+  }
+
+  .contenuto{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width:auto ;
+    height:auto;
+  }
+
+  .centro{
+  color:#409fff;
+  width: 300px;
+  height: 250px;
+  text-align: left;
+  padding: 20px 20px 20px 20px;
+  background-color:#409fff;
+  border-color: white;
+  border-width:5px;
+  border-style: solid;
+  border-radius:30px;
+  }
+
+  div.centro:hover{
+  background-color:white;
+  color:#409fff;
+  position:relative;
+  z-index:5;
+  }
+
+  .sinistro{
+    margin-left: 20px;
+  }
+
+  .contatti{
+  padding-top:10px;
+    width:600px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  img.social:hover{
+    -webkit-transform: scale(1.25);
+    background-color:#409fff;
+  }
+}
