@@ -53,12 +53,12 @@ em{
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 350PX;
+  width: auto;
   height:auto;
 }
 .centro{
   color: white;
-  width: 350px;
+  width: auto;
   height: 250px;
   text-align: left;
   padding: 20px 20px 20px 20px;
