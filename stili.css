@@ -103,17 +103,6 @@ P{
     font: italic bold 12px/20px Georgia, serif;
 }
 
-div.centro:hover{
-background-color:white;
-color:#409fff;
-position:relative;
-z-index:5;
-}
-
-img.social:hover{
-  -webkit-transform: scale(1.25);
-  background-color:#409fff;
-}
 /*cambiamenti versione desktop*/
 @media only screen and (min-width: 500px){
 
@@ -171,5 +160,16 @@ img.social:hover{
     flex-direction: row;
   }
 
+  div.centro:hover{
+  background-color:white;
+  color:#409fff;
+  position:relative;
+  z-index:5;
+  }
+
+  img.social:hover{
+    -webkit-transform: scale(1.25);
+    background-color:#409fff;
+  }
 
 }
