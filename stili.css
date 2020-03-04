@@ -102,6 +102,18 @@ P{
     text-align:center;
     font: italic bold 12px/20px Georgia, serif;
 }
+
+div.centro:hover{
+background-color:white;
+color:#409fff;
+position:relative;
+z-index:5;
+}
+
+img.social:hover{
+  -webkit-transform: scale(1.25);
+  background-color:#409fff;
+}
 /*cambiamenti versione desktop*/
 @media only screen and (min-width: 500px){
 
@@ -147,13 +159,6 @@ P{
   border-radius:30px;
   }
 
-  div.centro:hover{
-  background-color:white;
-  color:#409fff;
-  position:relative;
-  z-index:5;
-  }
-
   .sinistro{
     margin-left: 20px;
   }
@@ -166,8 +171,5 @@ P{
     flex-direction: row;
   }
 
-  img.social:hover{
-    -webkit-transform: scale(1.25);
-    background-color:#409fff;
-  }
+
 }
