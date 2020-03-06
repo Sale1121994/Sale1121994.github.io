@@ -4,9 +4,10 @@
   box-sizing: border-box;
 }
 
-body{
+html, body{
   background-image: linear-gradient(to top, #409fff, #ffffff);
-  height: 120%;
+  height: 100%;
+  
 }
 
 .sfondo{
